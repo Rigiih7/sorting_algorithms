@@ -46,4 +46,8 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
+/* quick sort*/
+int partition(int *array, int low, int high, size_t size);
+void quicksort(int *array, int low, int high, size_t size);
+
 #endif
